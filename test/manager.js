@@ -10,8 +10,7 @@ var port = 9998;
 
 var manager = new bpmn.ProcessManager({
     persistencyOptions: {
-        uri: "mongodb://bpmadmin:bpmadmin@ds049160.mongolab.com:49160/heroku_app32857595"
-		//uri: "mongodb://localhost:27017"
+		uri: "mongodb://localhost:27017"
     }
 });
 
